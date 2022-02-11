@@ -7,7 +7,9 @@
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
     "build": "^0.1.4",
+    "deploy-react": "^2.2.11",
     "gh-pages": "^3.2.3",
+    "gh-pages-deploy": "^0.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "5.3.0",
@@ -19,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d bulid",
-    "predeply": "npm run build"
+    "predeply": "yarn build",
+    "deploy": "gh-pages -d bulid"
   },
   "eslintConfig": {
     "extends": [
